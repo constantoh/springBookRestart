@@ -32,7 +32,6 @@ repositories {
 // 버전을 명시 하지 않는다면 위 11번째 설정의 버전을 따라감.
 // compile : gradle 7버전에서는 사용할 수 없음 -> implementation 사용
 dependencies {
-    // ㅊ
     implementation('org.springframework.boot:spring-boot-starter-web')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
